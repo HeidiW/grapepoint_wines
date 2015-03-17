@@ -1,0 +1,34 @@
+{
+  "name": "grapepoint_wines",
+  "version": "1.0.0",
+  "description": "The new web site for Grapepoint Wines, Brooklyn with web app Bottle Log.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "grapepoint_wines"
+  },
+  "keywords": [
+    "grapepoint",
+    "wine",
+    "wines",
+    "brooklyn",
+    "bottle",
+    "log"
+  ],
+  "author": "Heidi Williams-Foy",
+  "license": "MIT",
+  "dependencies": {
+        "express": "~4.0.0",
+        "serve-favicon": "~2.1.3",
+        "morgan": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "body-parser": "~1.0.0",
+        "debug": "~0.7.4",
+        "jade": "~1.3.0"
+        "mongodb": "*",
+        "monk": "*"
+    }
+}
