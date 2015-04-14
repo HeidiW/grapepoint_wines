@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1= title
+		ul each wine, index in wines
+		- wine= wine.getInformation()
+		li= wine.name + wine.location + wine.description

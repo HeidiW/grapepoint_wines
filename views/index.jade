@@ -1,43 +1,42 @@
 html(lang="en")
-    head
-      title Welcome to Grapepoint
-        script(type='text/javascript').
-     body
-        h1 Welcome to Grapepoint Wines
-        #container.col
-      if youAreUsingJade
-        p You are amazing
-      else
-        p Get on it!
-      p.
-        Jade is a terse and simple
-        templating language with a
-        strong focus on performance
-        and powerful features.
-        div.top
+		head 
+		include ./partials/page/head.jade
+			title Welcome to Grapepoint
+				script(type='text/javascript').
+		 body
+				h1 Welcome to Grapepoint Wines
+				#container.col
+			if youAreUsingJade
+				p You are amazing
+			else
+				p Get on it!
+			p.
+				Jade is a terse and simple
+				templating language with a
+				strong focus on performance
+				and powerful features.
+				div.top
 
-    form.form-horizontal(method="post", id="loginForm")
-      label Username
-      input.span3(id="username", type="text", name="User", placeholder="Enter your username")
-      label Password
-      input.span3(id="password", type="password", name="Password")
-      input.btn(type="submit", value="Log In")
-  div.container
-    div.content
-      table.table.table-striped
-        thead
-          tr
-            th Table
-            th Heading
-        tbody
-          tr
-            td Blah
-            td Test
-          tr
-            td Hello
-            td World
+		form.form-horizontal(method="post", id="loginForm")
+			label Username
+			input.span3(id="username", type="text", name="User", placeholder="Enter your username")
+			label Password
+			input.span3(id="password", type="password", name="Password")
+			input.btn(type="submit", value="Log In")
+	div.container
+		div.content
+			table.table.table-striped
+				thead
+					tr
+						th Table
+						th Heading
+				tbody
+					tr
+						td Hello
+						td World
  
-  div.footer
+	div.footer
+		include ./includes/foot.jade
 
 
-  
+	

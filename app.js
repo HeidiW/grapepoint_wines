@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/wines', function(req, res) {
-    res.send("There's gonna be booze here, promise");
+    res.render('wines', {title: 'Grapepoint Wines'});
 });
 
 var server = app.listen(3000, function() {
