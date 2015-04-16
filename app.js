@@ -1,8 +1,11 @@
-var express = require('express');
-    app = express();
+var express = require('express'),
+    app = express(),
+    path = require('path');
     //db = require('mongoskin').db('localhost:27017/foo');
 
 app.set('view engine', 'jade');
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 //db.collection('wine_inventory').insert({name: 'Welcome To Grapepoint Wines'});
@@ -14,6 +17,7 @@ app.get('/', function(req, res) {
 app.get('/wines', function(req, res) {
     res.render('wines', {title: 'Grapepoint Wines'});
 });
+
 
 var server = app.listen(3000, function() {
     var host = server.address().address;
