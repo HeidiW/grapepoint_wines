@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 		uglify: {
 			my_target: {
 				files: {
-				'grapepoint_wines/js/script.js': ['grapepoint_wines/components/js/*.js']
+				'grapepoint_wines/js/script.js' : ['grapepoint_wines/components/js/*.js']
 				}//files
 			} //my_target
 		}, //uglify
