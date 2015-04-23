@@ -2,20 +2,13 @@ html(lang="en")
 	include includes/head.jade
 	body
 		h1 Welcome to Grapepoint Wines
-		#container.col
-		div.container
-			div.content
-				table.table.table-striped
-					thead
-						tr
-							th Table
-							th Heading
-					tbody
-						tr
-							td Hello
-							td World
-		script (src = "/grapepoint_wines/js/script.js")
+		#content
+		.intro
+			input#.foo1.foo2
+			
+		script (src = "/stylesheets/styles.css")
+		script (src = "/js/script.js")
 		script (src = "http://localhost:3000")
 		div.footer
 			include ./includes/foot.jade
-		include includes/scripts.jade
+		include ./includes/scripts.jade
