@@ -1,0 +1,10 @@
+
+	  //-  Begin Mailchimp Signup Form
+	  //-  <form action="http://grapepointwines.us4.list-manage.com/subscribe/post?u=4ecb36b8e869dd1d993073b28&amp;id=edd6c6761c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+			//- 	<a href="https://www.facebook.com/Grapepointwines"><img src="../images/facebook.png" alt="Facebook Image"></a>
+			//- 	<a href="https://twitter.com/grapepointwines"><img src="../images/twitter.png" alt="Twitter Image"></a>
+			//- 	<a href="http://www.yelp.com/biz/grapepoint-wines-brooklyn"><img src="../images/yelp.png" alt="Yelp Image"></a>
+			//- 	<a href="http://pinterest.com/jozee03/grapepoint-wines/"><img src="../images/pinterest.png" alt="Pinterest Image"></a>
+			//- 	<input type="email" value="" placeholder="enter your email address" name="EMAIL" class="required email" id="sub-email">
+			//- 	<input type="submit" value=" " name="subscribe" id="sub-btn" class="button">
+			//- </form>

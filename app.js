@@ -18,6 +18,18 @@ app.get('/wines', function(req, res) {
 	res.render('wines', {title: 'Grapepoint Wines'});
 });
 
+app.get('/about', function(req, res){
+	res.render('about', {title: 'Grapepoint Wines'});
+});
+
+app.get('/blog', function(req, res){
+	res.render('blog');
+});
+
+app.get('/gallery', function(req, res){
+	res.render('gallery');
+});
+
 
 var server = app.listen(3000, function() {
 	var host = server.address().address;
