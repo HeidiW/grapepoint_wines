@@ -38,7 +38,7 @@ body {
   background: url('images/grapepoint_sketch.jpg');
 }
 
-header .navigation#links ul.nav li {
+header .navigation#links {
   display: inline;
 }
 

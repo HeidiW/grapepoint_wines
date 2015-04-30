@@ -20,5 +20,5 @@ ul.footer#links {
   display: inline; }
 
 /* line 22, ../../components/sass/styles.scss */
-ul.navigation#links {
+ul#navigation-links {
   display: inline; }
