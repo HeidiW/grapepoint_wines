@@ -2,4 +2,5 @@ $mycolor: #D2F0DD;
 
 body {
 	background: $mycolor;
+	background:url('images/grapepoint_sketch.jpg') no-repeat;
 }

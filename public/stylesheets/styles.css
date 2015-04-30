@@ -1,7 +1,24 @@
 /* line 1, ../../components/sass/styles.scss */
 body {
-  background-color: #d2f0db; }
+  background-color: #d2f0db;
+  margin: 20px 30px 20px 50px;
+  padding: 60px; }
 
-/* line 5, ../../components/sass/styles.scss */
+/* line 7, ../../components/sass/styles.scss */
+h1 {
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 42px;
+  margin: 0 0 23px 0; }
+
+/* line 14, ../../components/sass/styles.scss */
 p {
-  color: red; }
+  color: black; }
+
+/* line 18, ../../components/sass/styles.scss */
+ul.footer#links {
+  display: inline; }
+
+/* line 22, ../../components/sass/styles.scss */
+ul.navigation#links {
+  display: inline; }

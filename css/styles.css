@@ -13,8 +13,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
+  margin: 50px;
+  padding: 50px;
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -23,8 +23,23 @@ time, mark, audio, video {
  
 html {
   line-height: 1;
+  text-decoration: none;
 }
- 
-ol, ul {
-  list-style: none;
+
+body {
+  padding: 60px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
+
+.top-background {
+  background: url('images/grapepoint_sketch.jpg');
+}
+
+header .navigation#links ul.nav li {
+  display: inline;
+}
+
+
