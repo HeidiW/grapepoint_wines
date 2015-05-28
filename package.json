@@ -4,7 +4,7 @@
   "description": "The new web site for Grapepoint Wines.",
   "main": "index.js",
   "scripts": {
-    "start": "node /bin/www"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
